@@ -1,6 +1,37 @@
-body{background-color: white;
-}    
+* {
+    margin:0;
+    padding:0;
+} 
 
-.menu {display:flex;
-    justify-content: flex-end;
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.nav {
+    background-color: white;
+    color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    align-content: center;
+    font-size: 10rem;
+}
+
+.btn-container {
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end
+}
+
+.btn {
+    padding-bottom: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.body-img {
+    width: 99vw;
 }
