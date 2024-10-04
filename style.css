@@ -1,7 +1,6 @@
 body{background-color: azure;
 }    
 
-nav {display:flex;
+.menu {display:flex;
     justify-content: space-between; 
-
 }
