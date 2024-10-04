@@ -1,1 +1,7 @@
-body{background-color: azure;}    
+body{background-color: azure;
+}    
+
+nav {display:flex;
+    justify-content: space-between; 
+
+}
