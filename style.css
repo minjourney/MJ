@@ -1,6 +1,6 @@
-body{background-color: azure;
+body{background-color: white;
 }    
 
 .menu {display:flex;
-    justify-content: space-between; 
+    justify-content: flex-end;
 }
