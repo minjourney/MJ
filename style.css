@@ -143,7 +143,7 @@ a {
         width: 40rem;
         height: 40rem;        
     }
-
+}
 
 @media all and (max-width:1023px){/*모바일용*/
     .nav {
@@ -165,11 +165,11 @@ a {
     .btn-container {
         display:flex;
         flex-direction: row;
-        align-items:flex-end
+        align-items:flex-end;
     }
     
     .btn {
-        display: hidden;
+        display: none;
     }
 
     .mobile-btn{
@@ -185,9 +185,5 @@ a {
         display:flex;
         justify-content: center;
     }
-
-    
-
-
 }
-}
+
